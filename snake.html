@@ -144,7 +144,7 @@ var aSnaker = [];
 		else if(i==2)
 		oDiv.style.background = "url(http://www.codefans.net/jscss/demoimg/201403//body.png)";
 		else
-		oDiv.style.background = "url(../pic/PTF.jpg)";
+		oDiv.style.background = "url(/krist/pic/PTF.jpg)";
 		//oDiv.innerHTML = 4-i;
 		aSnaker.push(oDiv);
 		oGround.appendChild(oDiv);
@@ -176,7 +176,7 @@ var aSnaker = [];
 	function createDiv(){
 		var oDiv = document.createElement("div");
 		oDiv.className = "block";
-		oDiv.style.background = "url(/Users/tongfa.peng/Desktop/PTF.jpg)";
+		oDiv.style.background = "url(/krist/pic/PTF.jpg)";
 		oDiv.style.position = "absolute";
 		return oDiv;
 	}
@@ -282,7 +282,7 @@ var aSnaker = [];
 		if(snakeHead.style.left == oFood.style.left && snakeHead.style.top == oFood.style.top){
 			tailLeft = snakeTail.style.left;
 			tailTop = snakeTail.style.top;
-			oFood.style.background = "url(/Users/tongfa.peng/Desktop/PTF.jpg)";
+			oFood.style.background = "url(/krist/pic/PTF.jpg)";
 			oFood.style.top = tailTop +"px";
 			oFood.style.left = tailLeft+"px";
 			sum++;
